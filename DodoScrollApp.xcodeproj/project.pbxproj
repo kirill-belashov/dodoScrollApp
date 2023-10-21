@@ -11,6 +11,14 @@
 		50B418DA2AE47454003AEAD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418D92AE47454003AEAD0 /* ContentView.swift */; };
 		50B418DC2AE47455003AEAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B418DB2AE47455003AEAD0 /* Assets.xcassets */; };
 		50B418DF2AE47455003AEAD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B418DE2AE47455003AEAD0 /* Preview Assets.xcassets */; };
+		50B418E92AE47609003AEAD0 /* SwiftUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418E82AE47609003AEAD0 /* SwiftUIScreen.swift */; };
+		50B418EC2AE478B4003AEAD0 /* SUIBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418EB2AE478B4003AEAD0 /* SUIBackgroundView.swift */; };
+		50B418EE2AE478D8003AEAD0 /* SUIContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418ED2AE478D8003AEAD0 /* SUIContentView.swift */; };
+		50B418F02AE478F6003AEAD0 /* SUIToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418EF2AE478F6003AEAD0 /* SUIToolbarView.swift */; };
+		50B418F32AE47A8A003AEAD0 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418F22AE47A8A003AEAD0 /* View+Extensions.swift */; };
+		50B418F52AE47BEF003AEAD0 /* SwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418F42AE47BEF003AEAD0 /* SwiftUIViewModel.swift */; };
+		50B418F82AE47C35003AEAD0 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418F72AE47C34003AEAD0 /* ProductModel.swift */; };
+		50B418FA2AE47CF2003AEAD0 /* OptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B418F92AE47CF2003AEAD0 /* OptionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		50B418D92AE47454003AEAD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50B418DB2AE47455003AEAD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B418DE2AE47455003AEAD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50B418E82AE47609003AEAD0 /* SwiftUIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIScreen.swift; sourceTree = "<group>"; };
+		50B418EB2AE478B4003AEAD0 /* SUIBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIBackgroundView.swift; sourceTree = "<group>"; };
+		50B418ED2AE478D8003AEAD0 /* SUIContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIContentView.swift; sourceTree = "<group>"; };
+		50B418EF2AE478F6003AEAD0 /* SUIToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIToolbarView.swift; sourceTree = "<group>"; };
+		50B418F22AE47A8A003AEAD0 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		50B418F42AE47BEF003AEAD0 /* SwiftUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewModel.swift; sourceTree = "<group>"; };
+		50B418F72AE47C34003AEAD0 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		50B418F92AE47CF2003AEAD0 /* OptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,10 @@
 		50B418D62AE47454003AEAD0 /* DodoScrollApp */ = {
 			isa = PBXGroup;
 			children = (
+				50B418E72AE475E0003AEAD0 /* SwiftUI */,
+				50B418E62AE475CC003AEAD0 /* Resources */,
+				50B418E52AE47594003AEAD0 /* MainScreen */,
 				50B418D72AE47454003AEAD0 /* DodoScrollAppApp.swift */,
-				50B418D92AE47454003AEAD0 /* ContentView.swift */,
-				50B418DB2AE47455003AEAD0 /* Assets.xcassets */,
-				50B418DD2AE47455003AEAD0 /* Preview Content */,
 			);
 			path = DodoScrollApp;
 			sourceTree = "<group>";
@@ -65,6 +81,62 @@
 				50B418DE2AE47455003AEAD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50B418E52AE47594003AEAD0 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				50B418D92AE47454003AEAD0 /* ContentView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		50B418E62AE475CC003AEAD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50B418DD2AE47455003AEAD0 /* Preview Content */,
+				50B418DB2AE47455003AEAD0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50B418E72AE475E0003AEAD0 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				50B418F62AE47C20003AEAD0 /* Models */,
+				50B418F12AE47A7A003AEAD0 /* Extensions */,
+				50B418EA2AE477AC003AEAD0 /* Components */,
+				50B418E82AE47609003AEAD0 /* SwiftUIScreen.swift */,
+				50B418F42AE47BEF003AEAD0 /* SwiftUIViewModel.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		50B418EA2AE477AC003AEAD0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				50B418EB2AE478B4003AEAD0 /* SUIBackgroundView.swift */,
+				50B418ED2AE478D8003AEAD0 /* SUIContentView.swift */,
+				50B418EF2AE478F6003AEAD0 /* SUIToolbarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		50B418F12AE47A7A003AEAD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50B418F22AE47A8A003AEAD0 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50B418F62AE47C20003AEAD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50B418F72AE47C34003AEAD0 /* ProductModel.swift */,
+				50B418F92AE47CF2003AEAD0 /* OptionModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B418F52AE47BEF003AEAD0 /* SwiftUIViewModel.swift in Sources */,
+				50B418EE2AE478D8003AEAD0 /* SUIContentView.swift in Sources */,
 				50B418DA2AE47454003AEAD0 /* ContentView.swift in Sources */,
+				50B418E92AE47609003AEAD0 /* SwiftUIScreen.swift in Sources */,
+				50B418FA2AE47CF2003AEAD0 /* OptionModel.swift in Sources */,
+				50B418F32AE47A8A003AEAD0 /* View+Extensions.swift in Sources */,
+				50B418F82AE47C35003AEAD0 /* ProductModel.swift in Sources */,
+				50B418EC2AE478B4003AEAD0 /* SUIBackgroundView.swift in Sources */,
+				50B418F02AE478F6003AEAD0 /* SUIToolbarView.swift in Sources */,
 				50B418D82AE47454003AEAD0 /* DodoScrollAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DodoScrollApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DodoScrollApp/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +374,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DodoScrollApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DodoScrollApp/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
